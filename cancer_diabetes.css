@@ -13,6 +13,7 @@ body {
   font-family: sans-serif;
   margin: 0px auto;
   padding: 20px;
+  padding-bottom:70px;
   display: none;
   background-color: #482956;
 } 
@@ -21,6 +22,7 @@ body {
   font-family: sans-serif;
   margin: 0px auto;
   padding: 20px;
+  padding-bottom:70px;
   display: none;
   background-color: #482956;
 } 
@@ -47,7 +49,7 @@ h3 {
 
 }
 
-input{
+input[type=checkbox]{
 float:left;
 }
 
@@ -56,7 +58,7 @@ float:left;
 }
 
 .button {
-     background-color: #482956;
+    background-color: #482956;
     border: none;
     color: white;
     padding: 15px 40px;
@@ -68,9 +70,15 @@ float:left;
     cursor: pointer;
 }
 
+.wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .maindiv {
 	margin: 0px 100px;
-	padding: 100px 50px;
+	padding: 20px 50px;
 	padding-bottom:0px;
 	text-align: center;
 }
@@ -99,10 +107,16 @@ p {
 
 
 .button2 {
-  display: inline-block;
-  padding: 10px;
-  background-color: #482956;
-  cursor: pointer;
+    display: inline-block;
+    background-color: #666;
+    border: none;
+    color: white;
+    padding: 15px 40px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
 }
 
 .button2:hover {

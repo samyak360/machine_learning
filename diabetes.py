@@ -56,8 +56,7 @@ print("accuracy of KNN Tree with 20%  ",acck20)
 
 # plotting graph
 import matplotlib.pyplot  as plt
-plt.plot(acc10,acck10)
-plt.plot(acc20,acck20)
-plt.bar(acc10,acck10)
-plt.bar(acc20,acck20)
-plt.show()
+output10.hist()
+output20.hist()
+outputk10.hist()
+outputk20.hist()
