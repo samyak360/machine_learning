@@ -1,0 +1,113 @@
+body {
+	font: 'Raleway', sans-serif;
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: .5em;
+    top: 15%;
+	background: linear-gradient(to right, rgb(90, 51, 64), rgb(90, 83, 218)); 
+    
+}
+
+#drop-area{
+  font-family: sans-serif;
+  margin: 0px auto;
+  padding: 20px;
+  display: none;
+  background-color: #482956;
+} 
+
+#drop-area2{
+  font-family: sans-serif;
+  margin: 0px auto;
+  padding: 20px;
+  display: none;
+  background-color: #482956;
+} 
+
+.my-form {
+  margin-bottom: 10px;
+}
+
+h1 {
+    font: 600 3.5em 'Raleway', sans-serif;
+    color: rgba(0,0,0,.5);
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: .5em;
+    width: 100%;
+}
+
+h3 {
+	font: 900 2em 'Raleway', sans-serif;
+    color: rgba(0,0,0,.5);
+    text-align: center;
+    text-transform: none;
+    letter-spacing: 0.01em;
+
+}
+
+input{
+float:left;
+}
+
+label{
+float:left;
+}
+
+.button {
+     background-color: #482956;
+    border: none;
+    color: white;
+    padding: 15px 40px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.maindiv {
+	margin: 0px 100px;
+	padding: 100px 50px;
+	padding-bottom:0px;
+	text-align: center;
+}
+
+a {
+outline: 0;
+}
+
+footer{
+	padding: 15px 50px;
+	margin: 0px;
+    position: absolute;
+    bottom: 0;
+
+}
+
+.line{
+	height: 1px;
+	background-color: #000;
+}
+
+
+p {
+  margin-top: 0;
+}
+
+
+.button2 {
+  display: inline-block;
+  padding: 10px;
+  background-color: #482956;
+  cursor: pointer;
+}
+
+.button2:hover {
+  background: #ddd;
+  color: #000
+}
+
+

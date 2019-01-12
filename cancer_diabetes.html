@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Cancer_Diabetes - detect if you have any one of these</title>
+	<link rel="stylesheet" type="text/css" href="cancer_diabetes.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+	
+</head>
+<body>
+
+	<div class="maindiv">
+		
+			<button id=forbtn1 class ="button" onclick="areachange()">Breast Cancer</button><br>
+			<button id=forbtn2 class ="button" onclick="areachange2()">Diabetes</button>
+		
+	</div>
+
+	<div id="drop-area" class="animated rollIn">
+		<h1>Breast Cancer</h1>
+
+		<form class="myform">
+	  			<input type="checkbox" name="cancersym" value="1"><label>Irritated or itchy breasts</label><br><br>
+	  			<input type="checkbox" name="cancersym" value="2"><label>Change in breast color</label><br><br>
+	  			<input type="checkbox" name="cancersym" value="3"><label>Increase in breast size or shape</label><br><br>
+	  			<input type="checkbox" name="cancersym" value="4"><label>Changes in touch </label><br><br>
+	  			<input type="checkbox" name="cancersym" value="5"><label>Flaking of the nipple skin</label><br><br>
+	  			<input type="checkbox" name="cancersym" value="5"><label>A breast lump or thickening</label><br><br>
+	  			<input type="submit" class="button2" value="Submit">
+		</form>
+
+	</div>
+
+	<div id="drop-area2" class="animated rollIn">
+		<h1>Diabetes</h1>
+
+		<form class="myform">
+	  			<input type="checkbox" name="cancersym" value="1"><label>feeling very thirsty</label><br><br>
+	  			<input type="checkbox" name="cancersym" value="2"><label>urinating more frequently than usual, particularly at night</label><br><br>
+	  			<input type="checkbox" name="cancersym" value="3"><label>feeling very tired</label><br><br>
+	  			<input type="checkbox" name="cancersym" value="4"><label>weight loss and loss of muscle bulk</label><br><br>
+	  			<input type="checkbox" name="cancersym" value="5"><label>cuts or wounds that heal slowly</label><br><br>
+	  			<input type="checkbox" name="cancersym" value="5"><label>blurred vision</label><br><br>
+	  			<input type="submit" class="button2" value="Submit">
+		</form>
+	</div>
+<script type="text/javascript" src="cancer_diabetes.js"></script>
+</body>
+</html>
